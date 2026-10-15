@@ -1,5 +1,10 @@
 # Presell — The Backyard Bounty (BB-1002 redesign)
 
+Two versions with the same copy, image, CTAs, tracking and legal footer:
+
+- `presell/` — **v1**: keeps the original look (white card, red headline, yellow buttons).
+- `presell-v2/` — **v2**: new visual (serif headline with highlighter, framed video, orange CTAs, "Sound familiar?" pain block, dark green footer). Good A/B candidate against v1.
+
 Static page: `index.html` + `assets/`. No build step, no external dependencies.
 
 ## Destination

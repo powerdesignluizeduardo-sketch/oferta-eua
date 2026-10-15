@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Surprising Way to Grow Fresh Food in a Small Space</title>
+<meta name="description" content="Think you need a big backyard to grow your own food? Watch a short free video on a different approach to small-space food growing.">
+<meta property="og:title" content="A Surprising Way to Grow Fresh Food in a Space the Size of a Parking Spot">
+<meta property="og:description" content="Watch a short free video on a different approach to small-space food growing.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/backyard-video-1280.webp">
+<meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="light">
+<link rel="preload" as="image" type="image/webp"
+      imagesrcset="assets/backyard-video-640.webp 640w, assets/backyard-video-960.webp 960w, assets/backyard-video-1280.webp 1280w, assets/backyard-video-1600.webp 1600w"
+      imagesizes="(max-width: 700px) 100vw, 684px" fetchpriority="high">
+<style>
+  :root{
+    --cream:#FBF6EC;
+    --paper:#FFFFFF;
+    --ink:#1D1F1B;
+    --body:#33362F;
+    --muted:#6A6C63;
+    --green:#1F4D32;
+    --green-deep:#163824;
+    --green-soft:#EAF1E4;
+    --orange:#F26A1B;
+    --orange-hover:#E05A0C;
+    --orange-edge:#B9480A;
+    --marker:#FFE066;
+    --red:#C4372A;
+    --line:#E7DFCF;
+    --focus:#1A5FB4;
+    --serif:Georgia, "Times New Roman", Times, serif;
+    --sans:Arial, "Helvetica Neue", Helvetica, system-ui, sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--body);
+    font-family:var(--sans);
+    line-height:1.55;
+  }
+  img{display:block;max-width:100%;height:auto}
+  :focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+
+  /* Top strip */
+  .topbar{
+    background:var(--green);
+    color:#F4EFE3;
+    text-align:center;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.09em;
+    text-transform:uppercase;
+    padding:10px 16px;
+  }
+  .topbar .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#FF5A4A;margin-right:8px;vertical-align:1px;box-shadow:0 0 0 3px rgba(255,90,74,.25)}
+
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px}
+
+  /* Hero */
+  .hero{padding:26px 0 8px;text-align:center}
+  .badge{
+    display:inline-block;
+    margin:0 0 16px;
+    padding:6px 14px;
+    border:1.5px solid var(--green);
+    border-radius:999px;
+    color:var(--green);
+    background:var(--green-soft);
+    font-size:12.5px;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+  }
+  h1{
+    margin:0 auto 16px;
+    max-width:760px;
+    font-family:var(--serif);
+    font-size:40px;
+    line-height:1.14;
+    font-weight:700;
+    color:var(--ink);
+    letter-spacing:-.01em;
+    text-wrap:balance;
+  }
+  h1 .mark{
+    background:linear-gradient(transparent 58%, var(--marker) 58%, var(--marker) 92%, transparent 92%);
+    padding:0 2px;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+  }
+  .subhead{
+    margin:0 auto 24px;
+    max-width:640px;
+    font-size:20px;
+    line-height:1.5;
+    color:var(--body);
+    text-wrap:balance;
+  }
+  .subhead em{font-style:normal;font-weight:700;color:var(--ink)}
+
+  /* Video frame */
+  .screen{
+    position:relative;
+    max-width:700px;
+    margin:0 auto;
+    padding:8px;
+    background:var(--green-deep);
+    border-radius:14px;
+    box-shadow:0 18px 40px -18px rgba(22,56,36,.55), 0 2px 6px rgba(0,0,0,.12);
+  }
+  .screen-label{
+    position:absolute;
+    top:-12px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:2;
+    padding:5px 12px;
+    background:var(--red);
+    color:#fff;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    border-radius:4px;
+    white-space:nowrap;
+    box-shadow:0 2px 6px rgba(0,0,0,.2);
+  }
+  .video{
+    display:block;
+    position:relative;
+    aspect-ratio:16/9;
+    border-radius:8px;
+    overflow:hidden;
+    background:#2b3a22;
+    cursor:pointer;
+  }
+  .video img{width:100%;height:100%;object-fit:cover;transition:transform .3s ease, filter .3s ease}
+  .video:hover img{transform:scale(1.02);filter:brightness(1.05)}
+  .video:focus-visible{outline-offset:5px}
+  .video-caption{margin:16px 0 0;text-align:center;font-size:17px;color:var(--ink)}
+  .video-caption strong{font-family:var(--serif);font-size:19px}
+  .video-caption span{display:block;margin-top:2px;font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:700}
+
+  /* CTA */
+  .cta{margin:22px auto 0;text-align:center}
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    min-height:62px;
+    width:100%;
+    max-width:520px;
+    padding:18px 30px;
+    background:var(--orange);
+    color:#fff;
+    font-family:var(--sans);
+    font-size:22px;
+    font-weight:700;
+    line-height:1.2;
+    text-decoration:none;
+    text-shadow:0 1px 0 rgba(0,0,0,.15);
+    border-radius:8px;
+    box-shadow:0 4px 0 var(--orange-edge), 0 10px 22px -8px rgba(242,106,27,.6);
+    transition:background-color .15s ease, transform .1s ease, box-shadow .1s ease;
+  }
+  .btn:hover{background:var(--orange-hover)}
+  .btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--orange-edge), 0 4px 10px -4px rgba(242,106,27,.6)}
+  .btn .play{
+    flex:0 0 auto;
+    display:inline-grid;
+    place-items:center;
+    width:30px;height:30px;
+    border-radius:50%;
+    background:#fff;
+  }
+  .btn .play::after{
+    content:"";
+    margin-left:3px;
+    border-left:10px solid var(--orange);
+    border-top:6.5px solid transparent;
+    border-bottom:6.5px solid transparent;
+  }
+  .btn .arrow{font-size:.95em}
+
+  /* Pain block */
+  .pain{
+    margin:44px 0 0;
+    padding:28px 30px 26px;
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-top:5px solid var(--red);
+    border-radius:10px;
+  }
+  .pain h2{
+    margin:0 0 16px;
+    font-family:var(--serif);
+    font-size:28px;
+    line-height:1.2;
+    color:var(--ink);
+    text-align:center;
+  }
+  .pain ul{list-style:none;margin:0;padding:0}
+  .pain li{
+    position:relative;
+    padding:12px 0 12px 42px;
+    font-size:18px;
+    line-height:1.5;
+    color:var(--body);
+    border-top:1px dashed var(--line);
+  }
+  .pain li:first-child{border-top:0}
+  .pain li::before{
+    content:"\2715";
+    position:absolute;
+    left:0; top:12px;
+    display:grid;
+    place-items:center;
+    width:28px;height:28px;
+    border-radius:50%;
+    background:#FBE3E0;
+    color:var(--red);
+    font-size:14px;
+    font-weight:700;
+  }
+  .pain li strong{color:var(--ink)}
+
+  /* Bridge copy */
+  .bridge{margin:38px auto 0;max-width:640px}
+  .bridge .lead{
+    margin:0 0 16px;
+    font-family:var(--serif);
+    font-size:26px;
+    line-height:1.3;
+    color:var(--ink);
+    text-align:center;
+    text-wrap:balance;
+  }
+  .bridge p{margin:0 0 16px;font-size:19px;line-height:1.65}
+  .bridge .turn{
+    margin:22px 0 0;
+    padding:18px 20px;
+    background:var(--green-soft);
+    border-left:4px solid var(--green);
+    border-radius:0 8px 8px 0;
+    color:var(--green-deep);
+    font-weight:700;
+  }
+
+  /* Closing CTA */
+  .close{margin:34px 0 0;padding:0 0 48px;text-align:center}
+  .microcopy{margin:14px auto 0;max-width:420px;font-size:15px;color:var(--muted);text-wrap:balance}
+
+  /* Footer */
+  footer{
+    background:var(--green-deep);
+    color:#C9D3C4;
+    text-align:center;
+    font-size:12.5px;
+    line-height:1.6;
+    padding:30px 20px 36px;
+  }
+  footer .inner{max-width:820px;margin:0 auto}
+  footer p{margin:0 0 14px}
+  footer nav{margin:0 0 12px}
+  footer nav a{
+    display:inline-block;
+    min-height:44px;
+    padding:12px 8px;
+    color:#F4EFE3;
+    font-size:14px;
+    text-decoration:none;
+  }
+  footer nav a:hover{text-decoration:underline}
+  footer .fine{font-style:italic;color:#AAB7A5}
+
+  @media (max-width:700px){
+    .topbar{font-size:11.5px;letter-spacing:.06em;padding:9px 12px}
+    .wrap{padding:0 16px}
+    .hero{padding:24px 0 4px}
+    .badge{font-size:11.5px;margin-bottom:12px;padding:5px 12px}
+    h1{font-size:30px;line-height:1.16}
+    .subhead{font-size:17.5px;margin-bottom:24px}
+    .screen{padding:5px;border-radius:10px;margin:0 -6px;max-width:none}
+    .screen-label{font-size:11px;top:-11px}
+    .video{border-radius:6px}
+    .video-caption strong{font-size:17px}
+    .video-caption span{font-size:12.5px}
+    .cta{margin-top:18px}
+    .btn{font-size:20px;min-height:58px;padding:15px 16px}
+    .pain{margin-top:34px;padding:22px 18px 18px}
+    .pain h2{font-size:24px}
+    .pain li{font-size:17px;padding-left:38px}
+    .pain li::before{width:26px;height:26px;font-size:13px}
+    .bridge{margin-top:30px}
+    .bridge .lead{font-size:23px}
+    .bridge p{font-size:17.5px}
+  }
+  @media (max-width:360px){
+    h1{font-size:27px}
+    .btn{font-size:18px;gap:10px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .video img,.btn{transition:none}
+    .video:hover img{transform:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar"><span class="dot" aria-hidden="true"></span>Free Video Presentation</div>
+
+<main class="wrap">
+
+  <!-- Hero -->
+  <header class="hero">
+    <p class="badge">Small-Space Gardening &bull; Free Video</p>
+    <h1>A Surprising Way to Grow Fresh Food in a <span class="mark">Space the Size of a Parking Spot</span></h1>
+    <p class="subhead">Think you need a big backyard to grow your own food? This short video reveals <em>a different approach</em> to making the most of the space you already have.</p>
+
+    <!-- Video thumbnail (opens the VSL) -->
+    <div class="screen">
+      <span class="screen-label" aria-hidden="true">&#9654; Free Video</span>
+      <a class="video" href="https://backyardbounty.vercel.app/" data-cta="presell_video_click">
+        <img
+          src="assets/backyard-video-1280.webp"
+          srcset="assets/backyard-video-640.webp 640w, assets/backyard-video-960.webp 960w, assets/backyard-video-1280.webp 1280w, assets/backyard-video-1600.webp 1600w"
+          sizes="(max-width: 700px) 100vw, 684px"
+          width="1280" height="720"
+          fetchpriority="high" decoding="async"
+          alt="Watch the free video: a compact backyard garden with tomatoes, peppers, lettuce and carrots in raised beds">
+      </a>
+    </div>
+    <p class="video-caption"><strong>See the Small-Space Growing Method</strong><span>Click to Watch</span></p>
+
+    <!-- Primary CTA -->
+    <div class="cta">
+      <a class="btn" href="https://backyardbounty.vercel.app/" data-cta="presell_primary_cta_click"><span class="play" aria-hidden="true"></span>Watch the Free Video Now</a>
+    </div>
+  </header>
+
+  <!-- Pain points -->
+  <section class="pain" aria-labelledby="pain-title">
+    <h2 id="pain-title">Sound familiar?</h2>
+    <ul>
+      <li><strong>Grocery prices keep going up</strong> &mdash; and every trip to the store seems to buy a little less.</li>
+      <li>You'd love to grow some of your own food, but you look at your yard and think, <strong>&ldquo;There's just not enough room.&rdquo;</strong></li>
+      <li>You're <strong>not sure what to grow</strong>, or how to fit a real garden into a small space.</li>
+    </ul>
+  </section>
+
+  <!-- Bridge copy -->
+  <section class="bridge">
+    <p class="lead">Want to grow more of your own food, but don't have much room to work with?</p>
+    <p>A small backyard, a side yard, even a strip next to the driveway may hold more possibilities than you realize. The key is knowing how to make better use of the space you already have.</p>
+    <p class="turn">Watch the video to see a different approach to small-space food growing &mdash; and decide whether it could work at your home.</p>
+  </section>
+
+  <!-- Closing CTA -->
+  <div class="close">
+    <a class="btn" href="https://backyardbounty.vercel.app/" data-cta="presell_secondary_cta_click"><span class="play" aria-hidden="true"></span>Show Me How It Works <span class="arrow" aria-hidden="true">&rarr;</span></a>
+    <p class="microcopy">Watch the free presentation and decide if it's right for you.</p>
+  </div>
+
+</main>
+
+
+<!-- Legal footer (preserved from the original page) -->
+<footer>
+  <div class="inner">
+    <p>This site is not a part of the Google website or Google Inc. Additionally, This site is NOT endorsed by Google or Youtube in any way. Google is a trademark of Google, Inc.</p>
+    <nav aria-label="Legal">
+      <a href="https://backyardbounty.vercel.app/">Home</a>
+      <a href="https://backyardbounty.vercel.app/">Disclaimer</a>
+      <a href="https://backyardbounty.vercel.app/">Privacy Policy</a>
+      <a href="https://backyardbounty.vercel.app/">Contact</a>
+      <a href="https://backyardbounty.vercel.app/">Terms</a>
+    </nav>
+    <p>&copy; 2026 Survival Times Today Official. All rights reserved.</p>
+    <p class="fine">Statements on this website have not been evaluated by the Food and Drug Administration. Products are not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication, or have a medical condition, consult your physician before using our products.</p>
+    <p class="fine">Marketing Disclosure: This website is a marketplace. As such you should know that the owner has a monetary connection to the product and services advertised on the site. The owner receives payment whenever a qualified lead is referred but that is the extent of it. Please review the "Terms" section regarding links to Third Party policies and refunds.</p>
+    <p class="fine">Advertising Disclosure: This is an advertisement and not an actual news article, blog, or consumer protection update. This website and the products &amp; services referred to on the site are advertising marketplaces. Any photographs of persons used on this site are models. The owner of this site does not provide medical advice, diagnosis or treatment. Products and services on this site only provides a service where consumers can obtain and compare.</p>
+    <p class="fine">ADVERTISEMENT</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  // Fire an event to whatever analytics is installed (GTM dataLayer, GA4 gtag, Meta Pixel).
+  // Never blocks navigation: calls are fire-and-forget and wrapped in try/catch.
+  function track(name) {
+    try { (window.dataLayer = window.dataLayer || []).push({ event: name }); } catch (e) {}
+    try { if (typeof window.gtag === 'function') window.gtag('event', name, { transport_type: 'beacon' }); } catch (e) {}
+    try { if (typeof window.fbq === 'function') window.fbq('trackCustom', name); } catch (e) {}
+  }
+
+  // Carry the presell's query string (UTMs, fbclid, gclid, sub IDs...) through to the VSL.
+  var incoming = new URLSearchParams(window.location.search);
+  var links = document.querySelectorAll('a[data-cta]');
+
+  for (var i = 0; i < links.length; i++) {
+    (function (link) {
+      if (incoming.toString()) {
+        try {
+          var url = new URL(link.href);
+          incoming.forEach(function (value, key) {
+            if (!url.searchParams.has(key)) url.searchParams.set(key, value);
+          });
+          link.href = url.toString();
+        } catch (e) {}
+      }
+      link.addEventListener('click', function () { track(link.getAttribute('data-cta')); });
+    })(links[i]);
+  }
+
+
+  track('presell_view');
+})();
+</script>
+</body>
+</html>
